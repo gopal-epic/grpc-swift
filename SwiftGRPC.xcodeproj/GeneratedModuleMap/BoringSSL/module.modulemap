@@ -1,5 +1,5 @@
 module BoringSSL {
-    umbrella "/Users/timburks/Desktop/grpc-swift/Sources/BoringSSL/include"
+    umbrella "/Users/yuki/WorkingsPlace/program/polyrhythm/synchro-ios/grpc-swift/Sources/BoringSSL/include"
     link "BoringSSL"
     export *
 }

@@ -1,3 +1,7 @@
 .DS_Store
 project.xcworkspace
 xcuserdata
+Plugin/Packages
+.build
+Plugin/protoc-gen-swift
+Plugin/protoc-gen-swiftgrpc

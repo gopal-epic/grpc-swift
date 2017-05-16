@@ -1,0 +1,4 @@
+module BoringSSL {
+    umbrella "/Users/yuki/WorkingsPlace/program/polyrhythm/grpc-swift/Sources/BoringSSL/include"
+    export *
+}

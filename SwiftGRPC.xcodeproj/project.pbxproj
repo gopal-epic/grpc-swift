@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B688DD461ECB136E00B97129 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B688DD441ECB135F00B97129 /* libz.tbd */; };
+		B6EF8EC31ECEFA36001D8A8F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EF8EC21ECEFA36001D8A8F /* libz.tbd */; };
 		OBJ_1000 /* grpclb.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* grpclb.c */; };
 		OBJ_1001 /* load_balancer_api.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* load_balancer_api.c */; };
 		OBJ_1002 /* pick_first.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* pick_first.c */; };
@@ -598,42 +598,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B688DD3D1ECB130B00B97129 /* PBXContainerItemProxy */ = {
+		B6EF8EBB1ECEFA1B001D8A8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1062;
 			remoteInfo = BoringSSL;
 		};
-		B688DD3E1ECB130B00B97129 /* PBXContainerItemProxy */ = {
+		B6EF8EBC1ECEFA1B001D8A8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1062;
 			remoteInfo = BoringSSL;
 		};
-		B688DD3F1ECB130B00B97129 /* PBXContainerItemProxy */ = {
+		B6EF8EBD1ECEFA1B001D8A8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_782;
 			remoteInfo = CgRPC;
 		};
-		B688DD401ECB130B00B97129 /* PBXContainerItemProxy */ = {
+		B6EF8EBE1ECEFA1B001D8A8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_1062;
 			remoteInfo = BoringSSL;
 		};
-		B688DD411ECB130B00B97129 /* PBXContainerItemProxy */ = {
+		B6EF8EBF1ECEFA1B001D8A8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_782;
 			remoteInfo = CgRPC;
 		};
-		B688DD421ECB130B00B97129 /* PBXContainerItemProxy */ = {
+		B6EF8EC01ECEFA1B001D8A8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -643,7 +643,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B688DD441ECB135F00B97129 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B6EF8EC21ECEFA36001D8A8F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		OBJ_10 /* byte_buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = byte_buffer.c; sourceTree = "<group>"; };
 		OBJ_101 /* chttp2_server.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chttp2_server.c; sourceTree = "<group>"; };
 		OBJ_103 /* server_chttp2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = server_chttp2.c; sourceTree = "<group>"; };
@@ -1298,7 +1298,7 @@
 		OBJ_778 /* CgRPC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CgRPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_779 /* BoringSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BoringSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_78 /* load_balancer.pb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = load_balancer.pb.c; sourceTree = "<group>"; };
-		OBJ_780 /* gRPC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = gRPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_780 /* gRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gRPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_781 /* gRPCTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = gRPCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_80 /* pick_first.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pick_first.c; sourceTree = "<group>"; };
 		OBJ_82 /* round_robin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = round_robin.c; sourceTree = "<group>"; };
@@ -1316,7 +1316,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				B688DD461ECB136E00B97129 /* libz.tbd in Frameworks */,
+				B6EF8EC31ECEFA36001D8A8F /* libz.tbd in Frameworks */,
 				OBJ_1060 /* BoringSSL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1350,10 +1350,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B688DD431ECB135F00B97129 /* Frameworks */ = {
+		B6EF8EC11ECEFA36001D8A8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B688DD441ECB135F00B97129 /* libz.tbd */,
+				B6EF8EC21ECEFA36001D8A8F /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2280,7 +2280,7 @@
 			path = evp;
 			sourceTree = "<group>";
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -2292,8 +2292,9 @@
 				OBJ_775 /* Plugin */,
 				OBJ_776 /* third_party */,
 				OBJ_777 /* Products */,
-				B688DD431ECB135F00B97129 /* Frameworks */,
+				B6EF8EC11ECEFA36001D8A8F /* Frameworks */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_511 /* hkdf */ = {
@@ -3012,7 +3013,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
+			mainGroup = OBJ_5 /*  */;
 			productRefGroup = OBJ_777 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -3662,32 +3663,32 @@
 		OBJ_1061 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1062 /* BoringSSL */;
-			targetProxy = B688DD3D1ECB130B00B97129 /* PBXContainerItemProxy */;
+			targetProxy = B6EF8EBB1ECEFA1B001D8A8F /* PBXContainerItemProxy */;
 		};
 		OBJ_1386 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1062 /* BoringSSL */;
-			targetProxy = B688DD3E1ECB130B00B97129 /* PBXContainerItemProxy */;
+			targetProxy = B6EF8EBC1ECEFA1B001D8A8F /* PBXContainerItemProxy */;
 		};
 		OBJ_1387 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_782 /* CgRPC */;
-			targetProxy = B688DD3F1ECB130B00B97129 /* PBXContainerItemProxy */;
+			targetProxy = B6EF8EBD1ECEFA1B001D8A8F /* PBXContainerItemProxy */;
 		};
 		OBJ_1398 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1062 /* BoringSSL */;
-			targetProxy = B688DD401ECB130B00B97129 /* PBXContainerItemProxy */;
+			targetProxy = B6EF8EBE1ECEFA1B001D8A8F /* PBXContainerItemProxy */;
 		};
 		OBJ_1399 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_782 /* CgRPC */;
-			targetProxy = B688DD411ECB130B00B97129 /* PBXContainerItemProxy */;
+			targetProxy = B6EF8EBF1ECEFA1B001D8A8F /* PBXContainerItemProxy */;
 		};
 		OBJ_1400 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_1366 /* gRPC */;
-			targetProxy = B688DD421ECB130B00B97129 /* PBXContainerItemProxy */;
+			targetProxy = B6EF8EC01ECEFA1B001D8A8F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
